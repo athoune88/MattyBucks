@@ -170,6 +170,7 @@ SECTION - INFO
 .section-info img {
 	width: 30%;
 	margin: 0 35%;
+	height: auto;
 }
 
 /* ---------------------
@@ -233,7 +234,7 @@ SECTION - FORM
 .form-group textarea {
 	border-radius: 8px;
 	resize: vertical;
-	margin: 0 auto;
+	margin: 0 auto 0 5%;
 }
 
 button[type='submit'],
@@ -246,7 +247,7 @@ button[type='button'] {
 	border-radius: 8px;
 	color: rgba(255, 255, 255, 0.753);
 	text-align: center;
-	margin-top: 10px;
+	margin: 10px auto 0 5%;
 	cursor: pointer;
 	transition: background-color, 0.2s;
 	background-color: rgba(200, 200, 200, 0.2);
@@ -283,7 +284,7 @@ button[type='button']:active {
 	display: grid;
 	padding-bottom: 40px;
 	margin-bottom: 40px;
-	grid-gap: 10%;
+	grid-gap: 5%;
 	row-gap: 10%;
 	justify-items: center;
 	align-self: center;
@@ -334,27 +335,32 @@ button[type='button']:active {
 	border-radius: 8px;
 }
 
+.americano {
+	margin-top: 40px;
+}
+
 /* -------------------------
 status bar
 --------------------------------*/
 
 #status {
-	width: 90%;
-	max-width: 500px;
+	width: 100%;
 	text-align: center;
 	padding: 10px;
-	margin: 0 auto;
+	margin: 0 auto 0 5%;
 	border-radius: 8px;
 }
 #status.success {
 	background-color: rgb(211, 250, 153);
 	animation: status 4s ease forwards;
+	margin: 0 auto 0 5%;
 }
 
 #status-error {
 	background-color: rgb(250, 129, 92);
 	color: white;
 	animation: status 4s ease forwards;
+	margin: 0 auto 0 5%;
 }
 
 @keyframes status {
