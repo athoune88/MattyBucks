@@ -94,34 +94,6 @@ p {
 	line-height: 150%;
 }
 
-/*----------- BUTTONS ---------------*/
-/* 
-.btn:link,
-.btn:visited,
-input[type='submit'] {
-	display: inline-block;
-	padding: 10px 30px;
-	font-weight: 300;
-	text-decoration: none;
-	border-radius: 200px;
-	transition: background-color 0.2s, border 0.2s, color 0.2s;
-}
-
-.btn-full:link,
-.btn-full:visited,
-input[type='submit'] {
-	background-color: #24b650;
-	border: 1px solid #ff0000;
-	color: rgba(255, 255, 255, 0.8);
-	margin-right: 15px;
-}
-
-.btn-full:hover,
-.btn-full:active,
-input[type='submit'] {
-	border: 1px solid #24b650;
-}
- */
 /* ---------------------
 HEADER 
 --------------------
