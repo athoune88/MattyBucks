@@ -313,6 +313,10 @@ button[type='button']:active {
 	grid-template: 1fr 1fr / 1fr 1fr 1fr;
 	color: #444;
 }
+.delivery-wrapper {
+	grid-template: 1fr / 1fr;
+	color: #444;
+}
 
 .box {
 	display: flex;
@@ -333,6 +337,13 @@ button[type='button']:active {
 	height: 200px;
 	width: 200px;
 	border-radius: 8px;
+}
+
+.delivery img {
+	height: 70%;
+	width: 70%;
+	border-radius: 8px;
+	margin: 0 auto;
 }
 
 .americano {
