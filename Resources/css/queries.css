@@ -12,4 +12,69 @@
 
 /** small phones from 0 to 480 px */
 @media only screen and (max-width: 480px) {
+	* {
+		width: 100vw;
+		margin: 0 auto;
+	}
+}
+.row {
+	max-width: 480px;
+	width: 90vw;
+	height: auto;
+	margin: 0 auto;
+}
+
+section {
+	width: 100vw;
+	height: auto;
+	overflow: visible;
+	margin: 0 auto;
+}
+
+.daily-wrapper {
+	grid-template: 1fr 1fr 1fr 1fr 1fr / 1fr 1fr;
+	color: #444;
+	margin-bottom: 2%;
+	padding-bottom: 2%;
+}
+
+.flavors-wrapper {
+	grid-template: 1fr 1fr 1fr/ 1fr 1fr;
+	color: #444;
+}
+
+.seasonal-wrapper {
+	grid-template: 1fr 1fr/ 1fr 1fr;
+	color: #444;
+}
+
+.addons-wrapper {
+	grid-template: 1fr 1fr 1fr/ 1fr 1fr;
+	color: #444;
+}
+
+.delivery-wrapper {
+	grid-template: 1fr / 1fr;
+	color: #444;
+}
+
+.box {
+	display: flex;
+	background-color: rgba(200, 200, 200, 0.2);
+	color: rgba(255, 255, 255, 0.753);
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: center;
+	padding: 20%;
+	height: 300px;
+	width: 30%;
+	font-size: 125%;
+	border-radius: 15%;
+	border: 1 px solid #444;
+	flex-direction: column;
+}
+
+.box img {
+	height: 200px;
+	width: 200px;
+	border-radius: 8px;
 }

@@ -197,6 +197,8 @@ SECTION - FORM
 .order-form h2 {
 	color: rgba(255, 255, 255, 0.9);
 }
+.pita {
+}
 
 #flavor {
 	margin-top: 200px;
@@ -395,7 +397,7 @@ footer
  */
 
 footer {
-	background-color: #121212;
+	background-color: #000000;
 	padding-top: 12px;
 	font-size: 80%;
 	margin: 0, auto;
@@ -406,7 +408,7 @@ footer {
 .footer-nav li a:visited {
 	text-decoration: none;
 	border: 0;
-	color: #888;
+	color: #000000;
 	transition: color 0.2s;
 }
 
@@ -418,18 +420,18 @@ footer {
 .footer-nav img {
 	text-decoration: none;
 	border-bottom: none;
-	opacity: 0.9;
-	transform: scale(0.95);
+	opacity: 1;
+	transform: scale(0.75);
 }
 
 .footer-nav img:hover {
 	opacity: 1;
-	transform: scale(1.15);
+	transform: scale(0.85);
 	transition: transform 0.8s;
 }
 
 footer p {
-	color: #888;
+	color: #000000;
 	font-size: 90%;
 }
 
@@ -438,7 +440,7 @@ footer p {
 }
 
 a {
-	color: #666;
+	color: #000000;
 	text-decoration: none;
 	padding-bottom: 1px;
 	border-bottom: 1px solid transparent;
