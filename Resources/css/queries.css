@@ -22,6 +22,10 @@
 		font-size: 10px;
 	}
 
+	body {
+		overflow: auto;
+	}
+
 	/* ---------------------
 REUSABLE COMPONENTS 
 --------------------

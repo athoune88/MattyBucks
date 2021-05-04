@@ -172,182 +172,190 @@ SECTION - INFO
 	height: auto;
 }
 
-/* ---------------------
-SECTION - FORM
---------------------
- */
-
-.row h2:after {
-	background-color: transparent;
-	padding: 15px;
+/*------ FORM HEADER -----*/
+.formheader {
+	margin: auto;
+	width: 25%;
+	text-align: center;
+	margin-bottom: 50px;
 }
+
+.formheader li {
+	display: inline-block;
+	padding: 10px;
+}
+
+.formheader input {
+	background-color: #fde8cd;
+}
+
+li p {
+	font-size: 20px;
+	color: #fde8cd;
+}
+
+/*----FORM STYLE -----*/
 .order-form {
 	margin: 0 auto;
 	padding: 0;
 	width: 100%;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
-		url('../images/doug-greenman-ajxZm9Keg-A-unsplash.jpg');
+		url('../images/doug-greenman-G8uNOmgSR3U-unsplash1920x1440.jpg');
 	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
 }
 
 .order-form h2 {
 	color: #fde8cd;
 }
-
-#flavor {
-	margin-top: 50px;
-}
-
-#add-on {
-	padding-top: 100px;
-}
-.container {
+/* -------- GRID ------------*/
+.parent1,
+.parent2,
+.parent3 {
 	display: grid;
-	justify-items: center;
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+	margin: 0 auto;
+	width: 490px;
+	align-items: center;
+	margin-bottom: 50px;
 }
 
-.form-group {
-	width: 100%;
-	margin-top: 20px;
-	color: rgba(255, 255, 255, 0.753);
+.parent1 {
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(4, 1fr);
 }
 
-.form-group input,
-.form-group textarea {
-	width: 100%;
-	padding: 5px;
-	font-size: 125%;
-	border: 1 px solid #444;
-	background-color: rgba(200, 200, 200, 0.2);
-	color: rgba(255, 255, 255, 0.753);
-	margin-top: 5px;
+.parent2,
+.parent3 {
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
 }
 
-.form-group input {
+.parent1 button,
+.parent2 button,
+.parent3 button {
+	width: 150px;
+	height: 150px;
+	background-color: #fde8cd;
 	border-radius: 8px;
+	color: #433520;
 }
 
-.form-group textarea {
-	border-radius: 8px;
-	resize: vertical;
-	margin: 0 auto 0 5%;
+.parent1 button img,
+.parent2 button img,
+.parent3 button img {
+	width: 100px;
+	height: 100px;
+}
+.grid-item {
+	width: 150px;
+	height: 150px;
+}
+.div1 {
+	grid-area: 1 / 1 / 2 / 2;
+}
+.div2 {
+	grid-area: 1 / 2 / 2 / 3;
+}
+.div3 {
+	grid-area: 1 / 3 / 2 / 4;
+}
+.div4 {
+	grid-area: 2 / 1 / 3 / 2;
+}
+.div5 {
+	grid-area: 2 / 2 / 3 / 3;
+}
+.div6 {
+	grid-area: 2 / 3 / 3 / 4;
+}
+.div7 {
+	grid-area: 3 / 1 / 4 / 2;
+}
+.div8 {
+	grid-area: 3 / 2 / 4 / 3;
+}
+.div9 {
+	grid-area: 3 / 3 / 4 / 4;
+}
+.div10 {
+	grid-area: 4 / 1 / 5 / 2;
+}
+.div11 {
+	grid-area: 4 / 2 / 5 / 3;
+}
+.div12 {
+	grid-area: 4 / 3 / 5 / 4;
+}
+.div13 {
+	grid-area: 1 / 1 / 2 / 2;
+}
+.div14 {
+	grid-area: 1 / 2 / 2 / 3;
+}
+.div15 {
+	grid-area: 1 / 3 / 2 / 4;
+}
+.div16 {
+	grid-area: 2 / 1 / 3 / 2;
+}
+.div17 {
+	grid-area: 2 / 2 / 3 / 3;
+}
+.div18 {
+	grid-area: 2 / 3 / 3 / 4;
 }
 
-button[type='submit'],
-button[type='button'] {
-	width: 100%;
-	border: 2px solid #025955;
-	outline: none;
-	padding: 7px;
-	font-size: 125%;
-	border-radius: 8px;
-	color: #fde8cd;
+.div19 {
+	grid-area: 1 / 1 / 2 / 2;
+}
+.div20 {
+	grid-area: 1 / 2 / 2 / 3;
+}
+.div21 {
+	grid-area: 1 / 3 / 2 / 4;
+}
+.div22 {
+	grid-area: 2 / 1 / 3 / 2;
+}
+.div23 {
+	grid-area: 2 / 2 / 3 / 3;
+}
+.div24 {
+	grid-area: 2 / 3 / 3 / 4;
+}
+
+/* -------- DELIVERY ---------*/
+
+.delivery,
+.comment {
+	margin: auto;
+	width: 25%;
 	text-align: center;
-	margin: 10px auto 0 5%;
-	cursor: pointer;
-	transition: background-color, 0.2s;
+	margin-bottom: 50px;
+}
+
+.delivery button {
+	width: 300px;
+	margin: auto;
+	border-radius: 8px;
+	display: inline;
 	background-color: #fde8cd;
 }
 
-button[type='submit'] {
-	background-color: #025955;
-}
-
-input.checkbox {
-	height: 40px;
-	width: 40px;
-	margin: 0 auto;
-}
-
-button[type='submit']:hover,
-button[type='button']:hover {
-	width: 100%;
-	border: none;
-	outline: none;
-	padding: 7px;
-	font-size: 125%;
-	border-radius: 8px;
-	background-color: rgba(200, 200, 200, 0.5);
-	color: rgba(255, 255, 255, 0.753);
-	text-align: center;
-	margin-top: 10px;
-	cursor: pointer;
-	transition: background-color, 0.2s;
-}
-
-button[type='button']:active {
-	background-color: rgba(200, 200, 200, 1);
-	color: rgb(134, 89, 45, 0.753);
-}
-
-.item {
-	display: grid;
-	padding-bottom: 20px;
-	margin-bottom: 20px;
-	grid-gap: 5%;
-	row-gap: 5%;
-	justify-items: center;
-	align-self: center;
+.delivery button img {
+	width: 280px;
 	height: auto;
-	align-content: space-around;
+	border-radius: 8px;
 }
 
-.daily-wrapper {
-	grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
-	color: #444;
-	margin-bottom: 40px;
-	padding-bottom: 40px;
-}
-
-.flavors-wrapper {
-	grid-template: 1fr 1fr / 1fr 1fr 1fr;
-	color: #444;
-}
-
-.seasonal-wrapper {
-	grid-template: 1fr / 1fr 1fr 1fr;
-	color: #444;
-}
-
-.addons-wrapper {
-	grid-template: 1fr 1fr / 1fr 1fr 1fr;
-	color: #444;
-}
-.delivery-wrapper {
-	grid-template: 1fr / 1fr;
-	color: #444;
-}
-
-.box {
-	display: flex;
-	background-color: rgba(200, 200, 200, 0.2);
-	color: rgba(255, 255, 255, 0.753);
-	font-family: 'Josefin Sans', sans-serif;
-	text-align: center;
-	padding: 20%;
-	height: 300px;
-	width: 200px;
-	font-size: 125%;
-	border-radius: 15%;
-	border: 1 px solid #444;
-	flex-direction: column;
-}
-
-.box img {
+.comment textarea {
+	width: 300px;
 	height: 200px;
-	width: 200px;
 	border-radius: 8px;
-}
-
-.delivery img {
-	height: 70%;
-	width: 70%;
-	border-radius: 8px;
-	margin: 0 auto;
-}
-
-.americano {
-	margin-top: 40px;
+	background-color: #fde8cd;
 }
 
 /* -------------------------
@@ -355,10 +363,10 @@ status bar
 --------------------------------*/
 
 #status {
-	width: 100%;
+	width: 10%;
 	text-align: center;
 	padding: 10px;
-	margin: 0 auto 0 5%;
+	margin: auto;
 	border-radius: 8px;
 }
 #status.success {
@@ -395,11 +403,11 @@ footer
  */
 
 footer {
-	background-color: #000000;
-	padding-top: 12px;
-	font-size: 80%;
-	margin: 0, auto;
+	background-color: #010506;
+	padding: 0;
+	margin: 0 auto;
 	text-align: center;
+	height: auto;
 }
 
 .footer-nav li a:link,
@@ -419,12 +427,13 @@ footer {
 	text-decoration: none;
 	border-bottom: none;
 	opacity: 1;
-	transform: scale(0.75);
+	transform: scale(0.5);
+	border-radius: 8px;
 }
 
 .footer-nav img:hover {
 	opacity: 1;
-	transform: scale(0.85);
+	transform: scale(0.52);
 	transition: transform 0.8s;
 }
 
@@ -442,4 +451,89 @@ a {
 	text-decoration: none;
 	padding-bottom: 1px;
 	border-bottom: 1px solid transparent;
+}
+
+/* ---------------------
+SECTION - FORM
+--------------------
+ */
+/* 
+.row h2:after {
+	background-color: transparent;
+	padding: 15px;
+}
+.order-form {
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+		url('../images/doug-greenman-G8uNOmgSR3U-unsplash1920x1440.jpg');
+	background-size: contain;
+	background-position: top;
+	background-repeat: repeat;
+}
+
+.order-form h2 {
+	color: #fde8cd;
+}
+
+#flavor {
+	margin-top: 50px;
+}
+
+#add-on {
+	padding-top: 100px;
+}
+.container {
+	display: grid;
+	justify-items: center;
+}
+
+.form-group {
+	width: 75%;
+	margin-top: 20px;
+	color: rgba(255, 255, 255, 0.753);
+}
+
+.form-group li {
+	padding: 10px;
+	width: 400px;
+}
+
+.form-group input,
+.form-group textarea {
+	width: 75%;
+	padding: 5px;
+	font-size: 125%;
+	border: 1 px solid #444;
+	background-color: rgba(200, 200, 200, 0.2);
+	color: rgba(255, 255, 255, 0.753);
+	margin-top: 5px;
+}
+
+.form-group input {
+	border-radius: 8px;
+}
+
+.form-group textarea {
+	border-radius: 8px;
+	resize: vertical;
+	margin: 0 auto 0 5%;
+}
+*/
+button[type='submit'] {
+	width: 25%;
+	border: 2px solid #025955;
+	outline: none;
+	padding: 7px;
+	font-size: 75%;
+	border-radius: 8px;
+	color: #fde8cd;
+	text-align: center;
+	margin: auto;
+	margin-top: 10px;
+	cursor: pointer;
+	transition: background-color, 0.2s;
+	background-color: #025955;
+	display: grid;
 }
