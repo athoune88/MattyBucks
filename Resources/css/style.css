@@ -209,6 +209,124 @@ li p {
 .order-form h2 {
 	color: #fde8cd;
 }
+
+/* ------- BUTTONS -----------*/
+
+.parent1 button,
+.parent2 button,
+.parent3 button {
+	width: 150px;
+	height: 150px;
+	background-color: #fde8cd;
+	border-radius: 8px;
+	color: #433520;
+}
+
+.parent1 button img,
+.parent2 button img,
+.parent3 button img {
+	width: 100px;
+	height: 100px;
+}
+
+.parent1 input,
+.parent2 input,
+.parent3 input {
+	opacity: 0.15;
+	width: 100px;
+	height: 100px;
+	display: block;
+	margin: auto;
+	overflow: visible;
+}
+
+.parent1 input:checked,
+.parent2 input:checked,
+.parent3 input:checked {
+	opacity: 0.9;
+}
+
+button p {
+	font-size: 18px;
+	text-align: center;
+	color: #433520;
+	background-color: #fde8cd;
+}
+
+.box {
+	background-size: 150px 150px;
+	width: 200px;
+	height: 300px;
+}
+
+.americano {
+	background-image: url('../images/150/americano150x150.jpg');
+}
+
+.espresso {
+	background-image: url('../images/150/americano150x150.jpg');
+}
+.pour-over {
+	background-image: url('../images/150/americano150x150.jpg');
+}
+.french-press {
+	background-image: url('../images/150/americano150x150.jpg');
+}
+.macchiato {
+	background-image: url('../images/150/americano150x150.jpg');
+}
+.mocha {
+	background-image: url('../images/150/americano150x150.jpg');
+}
+.cappuccino {
+	background-image: url('../images/150/americano150x150.jpg');
+}
+.latte {
+	background-image: url('../images/150/americano150x150.jpg');
+}
+.iced-coffee {
+	background-image: url('../images/150/americano150x150.jpg');
+}
+.om-iced-latte {
+	background-image: url('../images/150/americano150x150.jpg');
+}
+.irish {
+	background-image: url('../images/150/americano150x150.jpg');
+}
+.peppermint {
+	background-image: url('../images/150/americano150x150.jpg');
+}
+.caramel {
+	background-image: url('../images/150/americano150x150.jpg');
+}
+.hazelnut {
+	background-image: url('../images/150/americano150x150.jpg');
+}
+.vanilla {
+	background-image: url('../images/150/vanilla150x150.jpg');
+}
+.french-vanilla {
+	background-image: url('../images/150/americano150x150.jpg');
+}
+.sugar {
+	background-image: url('../images/150/americano150x150.jpg');
+}
+.whip-cream {
+	background-image: url('../images/150/whip-cream150x150.jpg');
+}
+.heavy-cream {
+	background-image: url('../images/150/americano150x150.jpg');
+}
+.milk1 {
+	background-image: url('../images/150/americano150x150.jpg');
+}
+.milk2 {
+	background-image: url('../images/150/americano150x150.jpg');
+}
+.energy {
+	background-image: url('../images/150/americano150x150.jpg');
+}
+
 /* -------- GRID ------------*/
 .parent1,
 .parent2,
@@ -233,22 +351,6 @@ li p {
 	grid-template-rows: repeat(2, 1fr);
 }
 
-.parent1 button,
-.parent2 button,
-.parent3 button {
-	width: 150px;
-	height: 150px;
-	background-color: #fde8cd;
-	border-radius: 8px;
-	color: #433520;
-}
-
-.parent1 button img,
-.parent2 button img,
-.parent3 button img {
-	width: 100px;
-	height: 100px;
-}
 .grid-item {
 	width: 150px;
 	height: 150px;
