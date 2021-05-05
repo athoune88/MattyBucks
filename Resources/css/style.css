@@ -222,16 +222,18 @@ li p {
 	color: #433520;
 }
 
-.parent1 button img,
-.parent2 button img,
-.parent3 button img {
-	width: 100px;
-	height: 100px;
+.delivery button {
+	width: 200px;
+	height: 150px;
+	background-color: #fde8cd;
+	border-radius: 8px;
+	color: #433520;
 }
 
 .parent1 input,
 .parent2 input,
-.parent3 input {
+.parent3 input,
+.delivery input {
 	opacity: 0.15;
 	width: 100px;
 	height: 100px;
@@ -242,7 +244,8 @@ li p {
 
 .parent1 input:checked,
 .parent2 input:checked,
-.parent3 input:checked {
+.parent3 input:checked,
+.delivery input:checked {
 	opacity: 0.9;
 }
 
@@ -325,6 +328,13 @@ button p {
 }
 .energy {
 	background-image: url('../images/150/americano150x150.jpg');
+}
+
+.ridgedash {
+	background-image: url('../images/flash2.jpg');
+	background-clip: border-box;
+	background-size: cover;
+	overflow: hidden;
 }
 
 /* -------- GRID ------------*/
@@ -431,10 +441,17 @@ button p {
 
 /* -------- DELIVERY ---------*/
 
-.delivery,
 .comment {
 	margin: auto;
 	width: 25%;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.delivery {
+	margin: auto;
+	width: 25%;
+	height: 100px;
 	text-align: center;
 	margin-bottom: 50px;
 }
@@ -447,17 +464,15 @@ button p {
 	background-color: #fde8cd;
 }
 
-.delivery button img {
-	width: 280px;
-	height: auto;
-	border-radius: 8px;
-}
-
 .comment textarea {
 	width: 300px;
 	height: 200px;
 	border-radius: 8px;
 	background-color: #fde8cd;
+}
+
+.margin {
+	margin-top: 100px;
 }
 
 /* -------------------------
