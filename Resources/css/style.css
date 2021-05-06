@@ -28,7 +28,7 @@ REUSABLE COMPONENTS
  */
 
 .row {
-	max-width: 1140px;
+	width: 1140px;
 	margin: 0 auto;
 }
 
@@ -98,7 +98,7 @@ HEADER
 --------------------
  */
 
-.banner-text {
+/* .banner-text {
 	width: 1140px;
 	position: absolute;
 	top: 50%;
@@ -108,13 +108,14 @@ HEADER
 
 header {
 	height: 100vh;
+	width: 100vw;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
-		url('../images/friends.jpg');
+		url('../images/nathan-dumlao-71u2fOofI-U-unsplash.jpg');
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
 }
-
+ */
 header h2 {
 	color: #fde8cd;
 	font-size: 200%;
@@ -129,7 +130,7 @@ header h2 {
 }
 
 .main-nav {
-	float: right;
+	float: left;
 	list-style: none;
 	margin-top: 55px;
 	font-size: 175%;
@@ -163,12 +164,13 @@ SECTION - INFO
  */
 .section-info {
 	height: auto;
+	width: 100%;
 	background-color: #fde8cd;
 }
 
 .section-info img {
-	width: 30%;
-	margin: 0 35%;
+	width: 100%;
+	margin: auto;
 	height: auto;
 }
 
